@@ -23,7 +23,7 @@ header img{
 
 
 }
-header img.active{
+header picture.active img{
     transform: translate(-50%, -50%) scale(1.1);
     opacity: 100%;
 }

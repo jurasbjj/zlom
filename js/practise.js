@@ -41,13 +41,13 @@ i = 0
 setTimeout(
     function()
     {
-        $('header .bg img:nth-of-type(1)').addClass('active');
+        $('header .bg picture:nth-of-type(1)').addClass('active');
 
     }, 100);
 setInterval(
     function()
     {
-        $('header img').toggleClass('active');
+        $('header picture').toggleClass('active');
         if(i == 0){
             i++
         }
@@ -63,14 +63,14 @@ setInterval(
 
 $('.right').click(function(){
     if (i == 0){
-        $('header img').toggleClass('active')
+        $('header picture').toggleClass('active')
         i++
         $('.slide-number').text('0'+(i+1) + ' / 02')
     }
 })
 $('.left').click(function(){
     if (i == 1){
-        $('header img').toggleClass('active')
+        $('header picture').toggleClass('active')
         i--
         $('.slide-number').text('0'+(i+1) + ' / 02')
     }
