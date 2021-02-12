@@ -2,7 +2,7 @@ $(window).load(function () {
 
     setTimeout(function () {
         $('.page-header-logo').addClass('active');
-    }, 1000)
+    }, 500)
 })
 
 
@@ -16,6 +16,11 @@ if (mediaQueryDesktop.matches) {
             $('nav').removeClass('active');
         }
     });
+}
+if (mediaQueryMobile.matches) {
+  $('nav a:nth-of-type(1),nav a:nth-of-type(6), nav a:nth-of-type(7)').click(function(){
+     $('nav, .fade').removeClass('active')
+  })
 }
 
 // ###################################################### FAQ ######################################################

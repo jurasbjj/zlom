@@ -9,7 +9,7 @@
 }
 
 #schedule .type-schedule {
-    margin: 44px 0px 16px 0;
+    margin: 44px 0px 32px 0;
     text-align: left;
 }
 
@@ -211,7 +211,7 @@
 
 .select{
     background-color: var(--primaryColor);
-    width: 30%;
+    width: 35%;
     box-shadow: 0 2px 8px 0px rgba(0, 0, 0, 0.1);
     position: relative;
 

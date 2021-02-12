@@ -46,9 +46,9 @@ $('.burger, fade').click(function(){
  })
 
   // usuwanie cienia
- $('nav li a').click(function(){
-    $('nav, .fade').removeClass('active')
- })
+//  $('nav li a').click(function(){
+//     $('nav, .fade').removeClass('active')
+//  })
 }
 // ###################################################### KONIEC SCROLL ######################################################
 // ######################################## MEDIA CONTENT ####################################################################
